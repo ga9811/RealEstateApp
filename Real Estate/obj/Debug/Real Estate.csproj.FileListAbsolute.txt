@@ -1,0 +1,136 @@
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\Real Estate.exe.config
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\Real Estate.exe
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\Real Estate.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Real Estate.csproj.AssemblyReference.cache
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Real Estate.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\MainWindow.g.cs
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\App.g.cs
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Real Estate_MarkupCompile.cache
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Real Estate_MarkupCompile.lref
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\MainWindow.baml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Real Estate.g.resources
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Real_Estate.Properties.Resources.resources
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Real Estate.csproj.GenerateResource.cache
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Real Estate.csproj.CoreCompileInputs.cache
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Real Estate.exe
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Real Estate.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\ControlzEx.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\ControlzEx.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\ControlzEx.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\de\MahApps.Metro.resources.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Views\Agent.g.cs
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Views\Clients.g.cs
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Views\MainMenu.g.cs
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Views\Property.g.cs
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Views\Agent.baml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Views\Clients.baml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Views\MainMenu.baml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Views\Property.baml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Real Estate.csproj.CopyComplete
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Codicons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Coolicons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Entypo.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.FileIcons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Fontisto.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Ionicons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.JamIcons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Microns.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Modern.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Octicons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Typicons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Unicons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Zondicons.dll
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Codicons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Codicons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Coolicons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Coolicons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Entypo.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Entypo.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.FileIcons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.FileIcons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Fontisto.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Fontisto.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Ionicons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Ionicons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.JamIcons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.JamIcons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Microns.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Microns.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Modern.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Octicons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Octicons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Typicons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Typicons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Unicons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Unicons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Zondicons.pdb
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\bin\Debug\MahApps.Metro.IconPacks.Zondicons.xml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Resources\Icons.baml
+C:\Users\Bing Yan\Desktop\asystem development\Real Estate App\Real Estate\Real Estate\obj\Debug\Resources\IconsNonShared.baml
