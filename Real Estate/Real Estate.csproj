@@ -167,6 +167,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controller\UserService.cs" />
+    <Compile Include="DAO\BasicDAO.cs" />
+    <Compile Include="Models\Agents.cs" />
+    <Compile Include="Models\PropertyModel.cs" />
+    <Compile Include="Models\ScheduleModel.cs" />
+    <Compile Include="Utility\SqlServerUtils.cs" />
     <Compile Include="Views\Agent.xaml.cs">
       <DependentUpon>Agent.xaml</DependentUpon>
     </Compile>
@@ -244,10 +250,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controller\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Views\java real estate management system - login form.PNG" />
   </ItemGroup>

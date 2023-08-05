@@ -5,20 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Real_Estate"
         mc:Ignorable="d"
-        Title="MainMenu" Height="450" Width="800">
+        Title="MainMenu" Height="450" Width="700">
     <Grid>
         <Canvas HorizontalAlignment="Left" Height="434" VerticalAlignment="Center" Width="207" Background="#FF18B0A4">
-            <Button Content="Property" Height="49" Canvas.Left="44" Canvas.Top="97" Width="122" FontWeight="Bold"/>
-            <Button Content="Client" Height="49" Canvas.Left="44" Canvas.Top="171" Width="122" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-            <Button Content="User" Height="49" Canvas.Left="44" Canvas.Top="247" Width="122" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-            <Button Content="Exit" Height="49" Canvas.Left="44" Canvas.Top="323" Width="122" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Button Content="Property" Height="49" Canvas.Left="44" Canvas.Top="97" Width="122" FontWeight="Bold" Click="Button_Click"/>
+            <Button Content="Client" Height="49" Canvas.Left="44" Canvas.Top="171" Width="122" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click_1"/>
+            <Button Content="User" Height="49" Canvas.Left="44" Canvas.Top="247" Width="122" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click_3"/>
+            <Button Content="Exit" Height="49" Canvas.Left="44" Canvas.Top="323" Width="122" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click_2"/>
         </Canvas>
         <Label Content="Appointment List" HorizontalAlignment="Left" Height="29" Margin="252,27,0,0" VerticalAlignment="Top" Width="109" RenderTransformOrigin="0.456,-0.181"/>
-        <DataGrid HorizontalAlignment="Left" Height="76" Margin="254,61,0,0" VerticalAlignment="Top" Width="520" d:ItemsSource="{d:SampleData ItemCount=5}"/>
-        <Label Content="Track List" HorizontalAlignment="Left" Height="29" Margin="252,155,0,0" VerticalAlignment="Top" Width="109" RenderTransformOrigin="0.456,-0.181"/>
-        <DataGrid HorizontalAlignment="Left" Height="84" Margin="254,192,0,0" VerticalAlignment="Top" Width="520" d:ItemsSource="{d:SampleData ItemCount=5}"/>
-        <Label Content="Record List" HorizontalAlignment="Left" Height="29" Margin="252,289,0,0" VerticalAlignment="Top" Width="109" RenderTransformOrigin="0.456,-0.181"/>
-        <DataGrid HorizontalAlignment="Left" Height="84" Margin="254,326,0,0" VerticalAlignment="Top" Width="520" d:ItemsSource="{d:SampleData ItemCount=5}"/>
-
+        <DataGrid x:Name="appointmentdataGrid" HorizontalAlignment="Left" Height="125" Margin="254,61,0,0" VerticalAlignment="Top" Width="410" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="DataGrid_SelectionChanged" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Agent Name" Binding="{Binding agent_name}" />
+                <DataGridTextColumn Header="Client Name" Binding="{Binding client_name}" />
+                <DataGridTextColumn Header="Schedule Type" Binding="{Binding schedule_type}" />
+                <DataGridTextColumn Header="Schedule Time" Binding="{Binding schedule_time}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Track List" HorizontalAlignment="Left" Height="29" Margin="252,209,0,0" VerticalAlignment="Top" Width="109" RenderTransformOrigin="0.456,-0.181"/>
+        <DataGrid x:Name="trackDataGrid" HorizontalAlignment="Left" Height="119" Margin="254,244,0,0" VerticalAlignment="Top" Width="410" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="trackDataGrid_SelectionChanged" AutoGenerateColumns="False">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Property ID" Binding="{Binding id}" />
+            <DataGridTextColumn Header="Address" Binding="{Binding address}" />
+            <DataGridTextColumn Header="Inspec Status" Binding="{Binding inspection_status}" />
+                <DataGridTextColumn Header="Date" Binding="{Binding inspection_date}" />
+                <DataGridTextColumn Header="Repair Status" Binding="{Binding repair_status}" />
+                <DataGridTextColumn Header="Date" Binding="{Binding repair_date}" />
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

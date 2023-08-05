@@ -7,29 +7,33 @@
         mc:Ignorable="d"
         Title="Clients" Height="500" Width="1000">
     <Grid>
-        <Canvas HorizontalAlignment="Left" Height="484" VerticalAlignment="Top" Width="428" Background="#FF18B0A4" Margin="1,-1,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="201*"/>
+            <ColumnDefinition Width="299*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas HorizontalAlignment="Left" Height="484" VerticalAlignment="Top" Width="428" Background="#FF18B0A4" Margin="1,-1,0,0" Grid.ColumnSpan="2">
             <Label Content="ID" Height="34" Canvas.Left="183" Canvas.Top="123" Width="60" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF090909" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <TextBox Height="16" Canvas.Left="231" TextWrapping="Wrap" Canvas.Top="132" Width="75" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.499,0.549"/>
-            <Button Content="Home" Height="32" Canvas.Left="44" Canvas.Top="140" Width="101" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-            <Button Content="Property" Height="32" Canvas.Left="44" Canvas.Top="210" Width="101" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-            <Button Content="User" Height="32" Canvas.Left="44" Canvas.Top="280" Width="101" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.529,2.308"/>
-            <Button Content="Exit" Height="32" Canvas.Left="44" Canvas.Top="358" Width="101" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Button x:Name="btnHome" Content="Home" Height="32" Canvas.Left="44" Canvas.Top="140" Width="101" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click_1"/>
+            <Button x:Name="btnProperty" Content="Property" Height="32" Canvas.Left="44" Canvas.Top="210" Width="101" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click_3"/>
+            <Button x:Name="btnclient" Content="Client" Height="32" Canvas.Left="44" Canvas.Top="280" Width="101" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.529,2.308" Click="Button_Click"/>
+            <Button x:Name="btnExit" Content="Exit" Height="32" Canvas.Left="44" Canvas.Top="358" Width="101" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click_2"/>
         </Canvas>
-        <Label x:Name="CLIENTS" Content="CLIENTS" HorizontalAlignment="Left" Height="55" Margin="206,47,0,0" VerticalAlignment="Top" Width="204" Foreground="#FF090909" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="CLIENTS" Content="CLIENTS" HorizontalAlignment="Left" Height="55" Margin="206,47,0,0" VerticalAlignment="Top" Width="204" Foreground="#FF090909" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" Grid.ColumnSpan="2"/>
         <Label Content="Name" HorizontalAlignment="Left" Height="26" Margin="182,166,0,0" VerticalAlignment="Top" Width="49" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="22" Margin="234,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
+        <TextBox x:Name="textbox_ClientName" HorizontalAlignment="Left" Height="22" Margin="234,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
         <Label Content="Phone" HorizontalAlignment="Left" Height="34" Margin="180,208,0,0" VerticalAlignment="Top" Width="49" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="233,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+        <TextBox x:Name="textbox_ClientPhone" HorizontalAlignment="Left" Height="20" Margin="233,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
         <Label Content="Email" HorizontalAlignment="Left" Height="34" Margin="183,254,0,0" VerticalAlignment="Top" Width="51" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="22" Margin="233,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBox x:Name="textbox_ClientEmail" HorizontalAlignment="Left" Height="22" Margin="233,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
         <Label Content="Address" HorizontalAlignment="Left" Height="26" Margin="172,303,0,0" VerticalAlignment="Top" Width="61" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="22" Margin="233,307,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
-        <DataGrid HorizontalAlignment="Left" Height="275" Margin="467,13,0,0" VerticalAlignment="Top" Width="478" d:ItemsSource="{d:SampleData ItemCount=5}"/>
-        <Button Content="Add" HorizontalAlignment="Left" Height="28" Margin="485,402,0,0" VerticalAlignment="Top" Width="84" Foreground="#FFF6F5F5" Background="#FF30C631"/>
-        <Button Content="Edit" HorizontalAlignment="Left" Height="28" Margin="593,402,0,0" VerticalAlignment="Top" Width="84" Foreground="#FFF8F7F7" Background="#FF2671CC"/>
-        <Button Content="Remove" HorizontalAlignment="Left" Height="28" Margin="706,402,0,0" VerticalAlignment="Top" Width="84" Foreground="#FFFBFAFA" Background="#FFDD0E0E"/>
-        <Button Content="Refresh" HorizontalAlignment="Left" Height="28" Margin="827,402,0,0" VerticalAlignment="Top" Width="118" Background="#FFF4F810"/>
+        <TextBox x:Name="textbox_ClientAddress" HorizontalAlignment="Left" Height="22" Margin="233,307,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Height="28" Margin="83,402,0,0" VerticalAlignment="Top" Width="84" Foreground="#FFF6F5F5" Background="#FF30C631" Click="Button_Click_4" Grid.Column="1"/>
+        <Button x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Height="28" Margin="304,402,0,0" VerticalAlignment="Top" Width="84" Foreground="#FFFBFAFA" Background="#FFDD0E0E" Grid.Column="1" Click="btnRemove_Click"/>
+        <Button x:Name="btnRefresh" Content="Refresh" HorizontalAlignment="Left" Height="28" Margin="425,402,0,0" VerticalAlignment="Top" Width="118" Background="#FFF4F810" Click="btnRefresh_Click" Grid.Column="1"/>
         <Label Content="Requirement" HorizontalAlignment="Left" Height="26" Margin="182,333,0,0" VerticalAlignment="Top" Width="86" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="59" Margin="191,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
+        <TextBox x:Name="textbox_Requirement" HorizontalAlignment="Left" Height="59" Margin="191,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
+        <TextBox x:Name="textbox_ClientID" HorizontalAlignment="Left" Height="22" Margin="234,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
+        <DataGrid x:Name="DataGrid" Grid.Column="1" HorizontalAlignment="Left" Height="325" Margin="56,34,0,0" VerticalAlignment="Top" Width="519" SelectionChanged="DataGrid_SelectionChanged"/>
+        <Button x:Name="btnEdit" Content="Edit" HorizontalAlignment="Left" Height="28" Margin="196,402,0,0" VerticalAlignment="Top" Width="84" Foreground="#FFF8F7F7" Background="#FF2671CC" Click="Button_Click_5" Grid.Column="1"/>
     </Grid>
 </Window>

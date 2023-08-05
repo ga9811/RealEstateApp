@@ -5,21 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Real_Estate"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="500">
+        Title="MainWindow" Height="350" Width="500">
+
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="294,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
-        <PasswordBox HorizontalAlignment="Left" Height="25" Margin="294,150,0,0" VerticalAlignment="Top" Width="152"/>
-        <Button Content="Button" HorizontalAlignment="Center" Height="42" Margin="0,326,0,0" VerticalAlignment="Top" Width="296"/>
+        <TextBox x:Name="user" HorizontalAlignment="Left" Height="23" Margin="294,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
+        <PasswordBox x:Name="password1" HorizontalAlignment="Left" Height="25" Margin="294,150,0,0" VerticalAlignment="Top" Width="152"/>
         <Label Content="User:" HorizontalAlignment="Left" Height="28" Margin="236,97,0,0" VerticalAlignment="Top" Width="39"/>
         <Label Content="LOGIN" HorizontalAlignment="Left" Height="42" Margin="290,26,0,0" VerticalAlignment="Top" Width="188" FontWeight="Bold" FontSize="24" Foreground="#FF0C57E6"/>
         <Label Content="Password:" HorizontalAlignment="Left" Height="25" Margin="212,150,0,0" VerticalAlignment="Top" Width="63"/>
-        <StackPanel HorizontalAlignment="Left" Height="284" VerticalAlignment="Center" Width="200" Background="#FFB616EA"/>
-        <Button Content="Log In" HorizontalAlignment="Left" Height="22" Margin="294,228,0,0" VerticalAlignment="Top" Width="152" Background="#FF367BFE" Foreground="#FFF6F2F2"/>
+        <StackPanel HorizontalAlignment="Left" Height="334" VerticalAlignment="Center" Width="200" Background="#FFB616EA"/>
+        <Button x:Name="loginbutton" Content="Log In" HorizontalAlignment="Left" Height="22" Margin="244,266,0,0" VerticalAlignment="Top" Width="104" Background="#FF367BFE" Foreground="#FFF6F2F2" Click="Button_Click" RenderTransformOrigin="1.828,0.258"/>
         <TextBlock HorizontalAlignment="Left" Height="131" Margin="46,47,0,0" TextWrapping="Wrap" Text="Adil Baarmar Real Estate" VerticalAlignment="Top" Width="109" FontSize="24" FontWeight="Bold" Foreground="#FFFCFBFB"/>
-        <ComboBox Text="Broker" IsReadOnly="True" IsEditable="True" FontSize="11" Margin="294,195,142,71">
+        <ComboBox x:Name="combobox" Text="Broker" IsReadOnly="True" IsEditable="True" FontSize="11" Margin="293,198,113,92">
             <ComboBoxItem Content="Broker"/>
             <ComboBoxItem Content="Agent"/>
         </ComboBox>
+        <Button x:Name="clear" Content="Clear" HorizontalAlignment="Left" Height="22" Margin="370,266,0,0" VerticalAlignment="Top" Width="104" Background="#FF367BFE" Foreground="#FFF6F2F2" Click="Button1_Click" RenderTransformOrigin="1.828,0.258"/>
 
     </Grid>
 </Window>
