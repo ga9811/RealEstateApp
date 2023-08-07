@@ -1,6 +1,7 @@
 ﻿using Real_Estate.Utility;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -19,14 +20,29 @@ namespace Real_Estate.DAO
                     for (int i = 0; i < parameters.Length; i++)
                     {
                         var paramName = $"@p{i}";
-                        var paramValue = parameters[i];
-                        command.Parameters.AddWithValue(paramName, paramValue);
+                        var paramValue = parameters[i] ?? DBNull.Value;
+
+                        if (paramName == "@p12")
+                        {
+                            command.Parameters.Add(paramName, SqlDbType.VarBinary).Value = paramValue;
+                        }
+                        else
+                        {
+                            command.Parameters.AddWithValue(paramName, paramValue);
+                        }
+
+                      
                         Console.WriteLine($"Parameter Name: {paramName}");
                         Console.WriteLine($"Parameter Value: {paramValue}");
+                        Console.WriteLine(command.CommandText);
+
+                        foreach (SqlParameter p in command.Parameters)
+                        {
+                            Console.WriteLine($"{p.ParameterName} = {p.Value} ({p.SqlDbType})");
+                        }
                     }
 
                     return command.ExecuteNonQuery();
-
                 }
             }
         }

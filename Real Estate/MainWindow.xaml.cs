@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Data.SqlClient;
 using System.Data;
+using Real_Estate.Models;
 
 namespace Real_Estate
 {
@@ -65,6 +66,7 @@ namespace Real_Estate
                     MessageBox.Show("Successfully logged in.");
 
                     MainMenu mainMenu = new MainMenu(user.Text);
+                    GlobalData.AgentUsername = user.Text;
                     Console.WriteLine($"username is:{mainMenu.AgentUsername}");
                     mainMenu.Show();
                     this.Close();

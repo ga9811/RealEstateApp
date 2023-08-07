@@ -39,8 +39,9 @@ namespace Real_Estate
         public MainMenu(string agentUsername)
         {
             InitializeComponent();
+
             this.AgentUsername = agentUsername;
-            LoadData();
+            this.LoadData();
         }
 
 
@@ -58,7 +59,7 @@ namespace Real_Estate
             UserService userService = new UserService();
                 Agents agent = new Agents();
             
-            Console.WriteLine($"username is:{AgentUsername}");
+            
              
                 agent = userService.getAgentByUserName(AgentUsername);
                 if (agent != null)
@@ -69,6 +70,7 @@ namespace Real_Estate
 
                     var appointments = userService.getAgentSchedule(agent.id);
                     appointmentdataGrid.ItemsSource = appointments;
+                
                 }
 
             try

@@ -15,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Xml.Linq;
 using System.Web.UI.WebControls;
+using Real_Estate.Models;
 
 namespace Real_Estate
 {
@@ -168,11 +169,10 @@ namespace Real_Estate
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainMenu mainMenu = new MainMenu();
-               
+            MainMenu mainMenu = new MainMenu(GlobalData.AgentUsername);
+
             mainMenu.Show();
-            Agent agent = new Agent();
-            agent.Close();
+            this.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -180,16 +180,15 @@ namespace Real_Estate
             Property property = new Property();
 
             property.Show();
-            Agent agent = new Agent();
-            agent.Close();
+        
+            this.Close();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             Clients clients = new Clients();
             clients.Show();
-            Agent agent = new Agent();
-            agent.Close();
+            this.Close();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)

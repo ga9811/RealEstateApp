@@ -21,12 +21,26 @@ namespace Real_Estate.Models
         public DateTime? inspection_date { get; set; }
         public string repair_status { get; set; }
         public DateTime? repair_date { get; set; }
-        public byte[] photo { get; set; }
+        //public byte[] photo { get; set; }
         public bool? balcony { get; set; }
         public bool? pool { get; set; }
         public bool? backyard { get; set; }
         public bool? garage { get; set; }
         public string description { get; set; }
         public int? client_id { get; set; }
+
+        private byte[] _photo;
+        public byte[] photo
+        {
+            get { return _photo; }
+            set
+            {
+                if (value != null && !(value is byte[]))
+                {
+                    throw new InvalidOperationException("Photo must be a byte array");
+                }
+                _photo = value;
+            }
+        }
     }
 }

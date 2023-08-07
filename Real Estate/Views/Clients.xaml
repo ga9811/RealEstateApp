@@ -17,6 +17,7 @@
             <Button x:Name="btnProperty" Content="Property" Height="32" Canvas.Left="44" Canvas.Top="210" Width="101" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click_3"/>
             <Button x:Name="btnclient" Content="Client" Height="32" Canvas.Left="44" Canvas.Top="280" Width="101" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.529,2.308" Click="Button_Click"/>
             <Button x:Name="btnExit" Content="Exit" Height="32" Canvas.Left="44" Canvas.Top="358" Width="101" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click_2"/>
+            <Button x:Name="SearchBtn" Content="Search" Canvas.Left="328" Canvas.Top="130" HorizontalAlignment="Left" VerticalAlignment="Center" Width="67" Click="SearchBtn_Click"/>
         </Canvas>
         <Label x:Name="CLIENTS" Content="CLIENTS" HorizontalAlignment="Left" Height="55" Margin="206,47,0,0" VerticalAlignment="Top" Width="204" Foreground="#FF090909" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" Grid.ColumnSpan="2"/>
         <Label Content="Name" HorizontalAlignment="Left" Height="26" Margin="182,166,0,0" VerticalAlignment="Top" Width="49" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
@@ -32,7 +33,7 @@
         <Button x:Name="btnRefresh" Content="Refresh" HorizontalAlignment="Left" Height="28" Margin="425,402,0,0" VerticalAlignment="Top" Width="118" Background="#FFF4F810" Click="btnRefresh_Click" Grid.Column="1"/>
         <Label Content="Requirement" HorizontalAlignment="Left" Height="26" Margin="182,333,0,0" VerticalAlignment="Top" Width="86" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <TextBox x:Name="textbox_Requirement" HorizontalAlignment="Left" Height="59" Margin="191,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
-        <TextBox x:Name="textbox_ClientID" HorizontalAlignment="Left" Height="22" Margin="234,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165"/>
+        <TextBox x:Name="textbox_ClientID" HorizontalAlignment="Left" Height="22" Margin="234,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74"/>
         <DataGrid x:Name="DataGrid" Grid.Column="1" HorizontalAlignment="Left" Height="325" Margin="56,34,0,0" VerticalAlignment="Top" Width="519" SelectionChanged="DataGrid_SelectionChanged"/>
         <Button x:Name="btnEdit" Content="Edit" HorizontalAlignment="Left" Height="28" Margin="196,402,0,0" VerticalAlignment="Top" Width="84" Foreground="#FFF8F7F7" Background="#FF2671CC" Click="Button_Click_5" Grid.Column="1"/>
     </Grid>

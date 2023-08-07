@@ -170,6 +170,7 @@
     <Compile Include="Controller\UserService.cs" />
     <Compile Include="DAO\BasicDAO.cs" />
     <Compile Include="Models\Agents.cs" />
+    <Compile Include="Models\GlobalData.cs" />
     <Compile Include="Models\PropertyModel.cs" />
     <Compile Include="Models\ScheduleModel.cs" />
     <Compile Include="Utility\SqlServerUtils.cs" />
@@ -250,7 +251,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Views\WhatsApp Image 2023-08-06 at 12.32.22.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Views\java real estate management system - login form.PNG" />
   </ItemGroup>

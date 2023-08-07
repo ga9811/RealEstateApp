@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("views/add-image.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("views/whatsapp%20image%202023-08-06%20at%2012.32.22.jpg")]
 
 

@@ -1,4 +1,5 @@
 ﻿
+using Real_Estate.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -86,8 +87,8 @@ namespace Real_Estate
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            MainMenu mm = new MainMenu();
-            mm.Show();
+            MainMenu mainMenu = new MainMenu(GlobalData.AgentUsername);
+            mainMenu.Show();
             this.Close();
         }
 
@@ -115,11 +116,18 @@ namespace Real_Estate
                 cmd.Parameters.AddWithValue("@phone", textbox_ClientPhone.Text);
                 cmd.Parameters.AddWithValue("@email", textbox_ClientEmail.Text);
                 cmd.Parameters.AddWithValue("@address", textbox_ClientAddress.Text);
-                cmd.Parameters.AddWithValue("@requirement", textbox_Requirement);
-                
+                cmd.Parameters.AddWithValue("@requirement", textbox_Requirement.Text); // 注意这里添加了.Text属性
 
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("The new item stored");
+                int rowsAffected = cmd.ExecuteNonQuery();  // 捕获受影响的行数，这样可以给出更具体的反馈
+
+                if (rowsAffected > 0)
+                {
+                    MessageBox.Show("The new item stored successfully.");
+                }
+                else
+                {
+                    MessageBox.Show("Failed to store the item.");
+                }
             }
             catch (Exception ex)
             {
@@ -221,6 +229,40 @@ namespace Real_Estate
             }
         }
 
+        private void SearchBtn_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Con.Open();
+
+                // Define the query with a parameter for the ID
+                string query = "select * from Clients where id = @id";
+                SqlCommand cmd = new SqlCommand(query, Con);
+
+                // Add the parameter value from the textbox
+                cmd.Parameters.AddWithValue("@id", int.Parse(textbox_ClientID.Text));
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                // Bind the resulting DataTable to the DataGrid
+                DataGrid.ItemsSource = dt.DefaultView;
+
+                if (dt.Rows.Count == 0)
+                {
+                    MessageBox.Show("No client found with the provided ID.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                Con.Close();
+            }
+        }
 
     }
 
